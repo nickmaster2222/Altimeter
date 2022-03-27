@@ -2113,7 +2113,7 @@
   (symbol (lib_id "power:Earth") (at 95.25 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 84969346-7f67-4be5-9178-143d78a1823f)
-    (property "Reference" "#PWR?" (id 0) (at 88.9 52.07 0)
+    (property "Reference" "#PWR0127" (id 0) (at 88.9 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 91.44 52.07 0)
@@ -2345,7 +2345,7 @@
     (property "Value" "Conn_01x03_Female" (id 1) (at 143.51 139.6999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" (id 2) (at 142.24 138.43 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 142.24 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 142.24 138.43 0)
@@ -2753,7 +2753,7 @@
       (reference "#PWR0126") (unit 1) (value "Earth") (footprint "")
     )
     (path "/84969346-7f67-4be5-9178-143d78a1823f"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0127") (unit 1) (value "Earth") (footprint "")
     )
     (path "/37cf9889-35f0-4322-8722-2a0e92e7a23f"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -2810,7 +2810,7 @@
       (reference "J2") (unit 1) (value "Battery") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical")
     )
     (path "/b098508d-025c-4022-80c4-639f79b6b495"
-      (reference "J3") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/1eb279b8-cfeb-41b6-8510-73a87163ce55"
       (reference "L1") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
